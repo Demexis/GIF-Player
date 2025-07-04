@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net9.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+
+        <ApplicationIcon>Icons\film_icon.ico</ApplicationIcon>
+        <Version>1.0.0</Version>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <FileVersion>1.0.0</FileVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="ColorPickerWPF" Version="1.0.9" />
+      <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Images\collapse_icon.png" />
+      <Resource Include="Images\collapse_icon.png" />
+      <None Remove="Images\expand_icon.png" />
+      <Resource Include="Images\expand_icon.png" />
+      <None Remove="Images\pause_icon.png" />
+      <Resource Include="Images\pause_icon.png" />
+      <None Remove="Images\play_icon.png" />
+      <Resource Include="Images\play_icon.png" />
+      <None Remove="Images\stop_icon.png" />
+      <Resource Include="Images\stop_icon.png" />
+      <None Remove="Images\image_icon.png" />
+      <Resource Include="Images\image_icon.png" />
+      <None Remove="Images\speed_icon.png" />
+      <Resource Include="Images\speed_icon.png" />
+      <None Remove="Images\fill_icon.png" />
+      <Resource Include="Images\fill_icon.png" />
+      <None Remove="Images\bg_image_icon.png" />
+      <Resource Include="Images\bg_image_icon.png" />
+      <None Remove="Images\color_picker_icon.png" />
+      <Resource Include="Images\color_picker_icon.png" />
+      <None Remove="Images\step_icon.png" />
+      <Resource Include="Images\step_icon.png" />
+      <None Remove="Images\film_icon.png" />
+      <Resource Include="Images\film_icon.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Icons\film_icon.ico" />
+      <Content Include="Icons\film_icon.ico" />
+    </ItemGroup>
+
+</Project>

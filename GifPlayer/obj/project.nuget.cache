@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "3MyrWPgmxW0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Demexis\\RiderProjects\\GifPlayer\\GifPlayer\\GifPlayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Demexis\\.nuget\\packages\\colorpickerwpf\\1.0.9\\colorpickerwpf.1.0.9.nupkg.sha512",
+    "C:\\Users\\Demexis\\.nuget\\packages\\wpfanimatedgif\\2.0.2\\wpfanimatedgif.2.0.2.nupkg.sha512",
+    "C:\\Users\\Demexis\\.nuget\\packages\\writeablebitmapex\\1.5.1\\writeablebitmapex.1.5.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'ColorPickerWPF 1.0.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "ColorPickerWPF",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'WriteableBitmapEx 1.5.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "WriteableBitmapEx",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    }
+  ]
+}

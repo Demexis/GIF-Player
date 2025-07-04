@@ -1,0 +1,75 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "GifPlayer/1.0.0": {
+        "dependencies": {
+          "ColorPickerWPF": "1.0.9",
+          "WpfAnimatedGif": "2.0.2"
+        },
+        "runtime": {
+          "GifPlayer.dll": {}
+        }
+      },
+      "ColorPickerWPF/1.0.9": {
+        "dependencies": {
+          "WriteableBitmapEx": "1.5.1"
+        },
+        "runtime": {
+          "lib/net461/ColorPickerWPF.dll": {
+            "assemblyVersion": "1.0.9.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "WpfAnimatedGif/2.0.2": {
+        "runtime": {
+          "lib/netcoreapp3.0/WpfAnimatedGif.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.2.0"
+          }
+        }
+      },
+      "WriteableBitmapEx/1.5.1": {
+        "runtime": {
+          "lib/net40/WriteableBitmapEx.Wpf.dll": {
+            "assemblyVersion": "1.5.0.0",
+            "fileVersion": "1.5.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GifPlayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ColorPickerWPF/1.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k/fuE8/V3w7sCN0JEi4FOshG7fjQ/zudR2a9KAOh8pjIvQyAWrdwk/bRb9SxyiKFLPGn/cog5Af3TlXXF92RDQ==",
+      "path": "colorpickerwpf/1.0.9",
+      "hashPath": "colorpickerwpf.1.0.9.nupkg.sha512"
+    },
+    "WpfAnimatedGif/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B0j9SqtThyHVTiOPvu6yR+39Te0g3o+7Jjb+qEm7+Iz1HRqbE5/4QV+ntHWOYYBPOUFr9x1mdzGl/EzWP+nKiA==",
+      "path": "wpfanimatedgif/2.0.2",
+      "hashPath": "wpfanimatedgif.2.0.2.nupkg.sha512"
+    },
+    "WriteableBitmapEx/1.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7QoF7o6TNcQy3TVOVytgyaKXgLk9+kmC7ILzKRxk2+CVT3kCU+M5rXHLTAx4TOddSmtUHer1JTU2741Lia26NA==",
+      "path": "writeablebitmapex/1.5.1",
+      "hashPath": "writeablebitmapex.1.5.1.nupkg.sha512"
+    }
+  }
+}
