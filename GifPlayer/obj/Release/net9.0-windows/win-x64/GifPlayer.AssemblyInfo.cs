@@ -11,7 +11,7 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("GifPlayer")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+049872d60eca7f89ee06207f3a65e8a2d0de5311")]
 [assembly: System.Reflection.AssemblyProductAttribute("GifPlayer")]
