@@ -15,6 +15,7 @@ public sealed partial class MainWindow : Window
     private bool _codeChangesSliderFlag;
 
     private ColorPickerController ColorPicker { get; }
+    private BitmapFrameSaver BitmapFrameSaver { get; } = new();
         
     private readonly System.Windows.Threading.DispatcherTimer _timer;
 
@@ -195,9 +196,21 @@ public sealed partial class MainWindow : Window
         ImageBackground.Background = new SolidColorBrush(color);
     }
         
-    private void ColorPickerButtonSwitch_Color(object sender, RoutedEventArgs e)
+    private void ColorPickerButtonSwitch_Click(object sender, RoutedEventArgs e)
     {
         ColorPicker.Switch();
+    }
+    
+    private void CaptureFrameButton_Click(object sender, RoutedEventArgs e)
+    {
+        var controller = WpfAnimatedGif.ImageBehavior.GetAnimationController(GifImage);
+        if (controller == null) {
+            MessageBox.Show("Image not found.", "Error",
+                MessageBoxButton.OK, MessageBoxImage.Warning);
+            return;
+        }
+
+        BitmapFrameSaver.SaveFrame(GifImage, controller.CurrentFrame);
     }
 
     private void ShowHidePanelButton_OnClick(object sender, RoutedEventArgs e)

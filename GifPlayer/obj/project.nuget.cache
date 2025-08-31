@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "DPIuD9b4qFc=",
+  "dgSpecHash": "7SvvPH7tu44=",
   "success": true,
   "projectFilePath": "C:\\Users\\Demexis\\RiderProjects\\GifPlayer\\GifPlayer\\GifPlayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Demexis\\.nuget\\packages\\colorpickerwpf\\1.0.9\\colorpickerwpf.1.0.9.nupkg.sha512",
-    "C:\\Users\\Demexis\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.6\\microsoft.net.illink.tasks.9.0.6.nupkg.sha512",
+    "C:\\Users\\Demexis\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.8\\microsoft.net.illink.tasks.9.0.8.nupkg.sha512",
     "C:\\Users\\Demexis\\.nuget\\packages\\wpfanimatedgif\\2.0.2\\wpfanimatedgif.2.0.2.nupkg.sha512",
     "C:\\Users\\Demexis\\.nuget\\packages\\writeablebitmapex\\1.5.1\\writeablebitmapex.1.5.1.nupkg.sha512"
   ],

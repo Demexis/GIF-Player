@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:gif="http://wpfanimatedgif.codeplex.com"
         xmlns:gifPlayer="clr-namespace:GifPlayer"
-        Title="GIF Player" MinHeight="250" MinWidth="350" Height="450" Width="600"
+        Title="GIF Player" MinHeight="250" MinWidth="350" Height="450" Width="640"
         Icon="Images/film_icon.png"
         MouseLeftButtonDown="Window_MouseLeftButtonDown">
     
@@ -133,8 +133,11 @@
                         <Button Width="30" Height="30" Click="BackgroundImageButton_Click">
                             <Image Source="Images/bg_image_icon.png" Width="20" Height="20"></Image>
                         </Button>
-                        <Button Width="30" Height="30" Click="ColorPickerButtonSwitch_Color">
+                        <Button Width="30" Height="30" Click="ColorPickerButtonSwitch_Click">
                             <Image Source="Images/color_picker_icon.png" Width="20" Height="20"></Image>
+                        </Button>
+                        <Button Width="30" Height="30" Click="CaptureFrameButton_Click">
+                            <Image Source="Images/camera_icon.png" Width="20" Height="20"></Image>
                         </Button>
                     </StackPanel>
                 </ScrollViewer>

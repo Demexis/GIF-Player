@@ -14,56 +14,7 @@
           "lib/net461/ColorPickerWPF.dll": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/9.0.6": {
-        "type": "package",
-        "build": {
-          "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "WpfAnimatedGif/2.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netcoreapp3.0/WpfAnimatedGif.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netcoreapp3.0/WpfAnimatedGif.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App.WPF"
-        ]
-      },
-      "WriteableBitmapEx/1.5.1": {
-        "type": "package",
-        "compile": {
-          "lib/net40/WriteableBitmapEx.Wpf.dll": {
-            "related": ".pdb;.XML"
-          }
-        },
-        "runtime": {
-          "lib/net40/WriteableBitmapEx.Wpf.dll": {
-            "related": ".pdb;.XML"
-          }
-        }
-      }
-    },
-    "net9.0-windows7.0/win-x64": {
-      "ColorPickerWPF/1.0.9": {
-        "type": "package",
-        "dependencies": {
-          "WriteableBitmapEx": "1.5.1"
-        },
-        "compile": {
-          "lib/net461/ColorPickerWPF.dll": {}
-        },
-        "runtime": {
-          "lib/net461/ColorPickerWPF.dll": {}
-        }
-      },
-      "Microsoft.NET.ILLink.Tasks/9.0.6": {
+      "Microsoft.NET.ILLink.Tasks/9.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -113,10 +64,10 @@
         "lib/net461/ColorPickerWPF.dll"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/9.0.6": {
-      "sha512": "TXy3SbJzGXQbxxIxCjdrp8bwEyTDImyYNpTpd6v7P3JL2Y7dno8EYG7dPezfYTa5SoWKdhbH9cbnwHHs3BR5gA==",
+    "Microsoft.NET.ILLink.Tasks/9.0.8": {
+      "sha512": "rd1CbIsMtVPtZNTIVD6Xydue//klYOOQIDpRgu3BHtv17AlpRs74/6QFbcYgMm/jL+naVU2T3OFLxVSLV5lQLQ==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/9.0.6",
+      "path": "microsoft.net.illink.tasks/9.0.8",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -130,7 +81,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.9.0.6.nupkg.sha512",
+        "microsoft.net.illink.tasks.9.0.8.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net472/ILLink.Tasks.dll",
         "tools/net472/ILLink.Tasks.dll.config",
@@ -223,7 +174,7 @@
   "projectFileDependencyGroups": {
     "net9.0-windows7.0": [
       "ColorPickerWPF >= 1.0.9",
-      "Microsoft.NET.ILLink.Tasks >= 9.0.6",
+      "Microsoft.NET.ILLink.Tasks >= 9.0.8",
       "WpfAnimatedGif >= 2.0.2"
     ]
   },
@@ -284,7 +235,7 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[9.0.6, )",
+            "version": "[9.0.8, )",
             "autoReferenced": true
           },
           "WpfAnimatedGif": {
@@ -311,12 +262,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
-      }
-    },
-    "runtimes": {
-      "win-x64": {
-        "#import": []
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   },

@@ -2,7 +2,6 @@ C:\Users\Demexis\RiderProjects\GifPlayer\GifPlayer\bin\Debug\net9.0-windows\GifP
 C:\Users\Demexis\RiderProjects\GifPlayer\GifPlayer\bin\Debug\net9.0-windows\GifPlayer.deps.json
 C:\Users\Demexis\RiderProjects\GifPlayer\GifPlayer\bin\Debug\net9.0-windows\GifPlayer.runtimeconfig.json
 C:\Users\Demexis\RiderProjects\GifPlayer\GifPlayer\bin\Debug\net9.0-windows\GifPlayer.dll
-C:\Users\Demexis\RiderProjects\GifPlayer\GifPlayer\bin\Debug\net9.0-windows\GifPlayer.pdb
 C:\Users\Demexis\RiderProjects\GifPlayer\GifPlayer\bin\Debug\net9.0-windows\WpfAnimatedGif.dll
 C:\Users\Demexis\RiderProjects\GifPlayer\GifPlayer\obj\Debug\net9.0-windows\GifPlayer.csproj.AssemblyReference.cache
 C:\Users\Demexis\RiderProjects\GifPlayer\GifPlayer\obj\Debug\net9.0-windows\MainWindow.baml
@@ -17,7 +16,6 @@ C:\Users\Demexis\RiderProjects\GifPlayer\GifPlayer\obj\Debug\net9.0-windows\GifP
 C:\Users\Demexis\RiderProjects\GifPlayer\GifPlayer\obj\Debug\net9.0-windows\GifPlayer.csproj.Up2Date
 C:\Users\Demexis\RiderProjects\GifPlayer\GifPlayer\obj\Debug\net9.0-windows\GifPlayer.dll
 C:\Users\Demexis\RiderProjects\GifPlayer\GifPlayer\obj\Debug\net9.0-windows\refint\GifPlayer.dll
-C:\Users\Demexis\RiderProjects\GifPlayer\GifPlayer\obj\Debug\net9.0-windows\GifPlayer.pdb
 C:\Users\Demexis\RiderProjects\GifPlayer\GifPlayer\obj\Debug\net9.0-windows\GifPlayer.genruntimeconfig.cache
 C:\Users\Demexis\RiderProjects\GifPlayer\GifPlayer\obj\Debug\net9.0-windows\ref\GifPlayer.dll
 C:\Users\Demexis\RiderProjects\GifPlayer\GifPlayer\bin\Debug\net9.0-windows\ColorPickerWPF.dll
@@ -25,3 +23,4 @@ C:\Users\Demexis\RiderProjects\GifPlayer\GifPlayer\bin\Debug\net9.0-windows\Writ
 C:\Users\Demexis\RiderProjects\GifPlayer\GifPlayer\obj\Debug\net9.0-windows\GifPlayer_MarkupCompile.lref
 C:\Users\Demexis\RiderProjects\GifPlayer\GifPlayer\obj\Debug\net9.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\Demexis\RiderProjects\GifPlayer\GifPlayer\obj\Debug\net9.0-windows\GifPlayer_Content.g.cs
+C:\Users\Demexis\RiderProjects\GifPlayer\GifPlayer\obj\Debug\net9.0-windows\GifPlayer.sourcelink.json

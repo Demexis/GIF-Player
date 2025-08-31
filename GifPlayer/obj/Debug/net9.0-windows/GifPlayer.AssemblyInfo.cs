@@ -12,11 +12,11 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("GifPlayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+049872d60eca7f89ee06207f3a65e8a2d0de5311")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.1.0+0f82e35ceea8c50b65b4b7b43ca78c2472195f62")]
 [assembly: System.Reflection.AssemblyProductAttribute("GifPlayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GifPlayer")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.1.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
 
